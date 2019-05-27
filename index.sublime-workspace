@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newUser"
+			],
+			[
+				"get",
+				"getAllUsers"
+			],
+			[
+				"gen",
+				"generatorIMG"
+			],
+			[
+				"ex",
+				"extended"
+			],
+			[
+				"ur",
+				"urlencoded"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"cu",
+				"curCell"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"min",
+				"min"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"ba",
+				"backgroundColor"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"n",
+				"num1"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"st",
+				"style\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 3694,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 2898,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 439,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/login.ejs",
+			"settings":
+			{
+				"buffer_size": 1661,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/register.ejs",
+			"settings":
+			{
+				"buffer_size": 1779,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3040,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/web test/web app",
+		"/C/web test/web app/scrypts",
+		"/C/web test/web app/views"
+	],
+	"file_history":
+	[
+		"/C/Users/Xubunter/Downloads/ninja-store-master/routes/store.js",
+		"/C/web test/web app/scrypts/pg.js",
+		"/C/web test/web app/node_modules/pg/README.md",
+		"/C/web test/web app/node_modules/pg-connection-string/README.md",
+		"/C/web test/web app/css/signin.css",
+		"/C/web test/web app/register.html",
+		"/C/web test/web app/login.html",
+		"/C/web test/web app/scrypts/main.js",
+		"/C/web test/web app/css/style.css",
+		"/C/web test/web app/css/signin.cc",
+		"/C/web test/web app/package.json",
+		"/C/web test/4/style.css",
+		"/C/web test/4/index.html",
+		"/C/web test/web app/index.js",
+		"/C/web test/2/script.js",
+		"/C/web test/3/script.js",
+		"/C/web test/3/index.html",
+		"/C/web test/2/index.html",
+		"/C/web test/1/index.html",
+		"/C/web test/3/style.css",
+		"/C/web test/1/style.css",
+		"/C/web test/1/script.js",
+		"/C/web test/4/script.js",
+		"/C/haskell/test/test.hs",
+		"/C/Users/Xubunter/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Xubunter/Documents/love projects/first/conf.lua",
+		"/C/Users/Xubunter/Downloads/CPC/repo/Table/Table/Table.h",
+		"/C/Users/Xubunter/Downloads/CPC/repo/Table/Table/matrixInc.h",
+		"/C/Users/Xubunter/Downloads/CPC/repo/Table/Table/matrixAdj.cpp",
+		"/C/Users/Xubunter/Downloads/CPC/repo/Table/Table/matrixAdj.h",
+		"/C/Users/Xubunter/Downloads/CPC/repo/Table/Table/main.cpp",
+		"/C/Users/Xubunter/Documents/love projects/first/main.lua",
+		"/C/Users/Xubunter/Downloads/CPC/repo/Table/Table/matrixIncSpace.cpp",
+		"/C/Users/Xubunter/Downloads/CPC/repo/Table/Table/Tablespace.cpp",
+		"/C/Users/Xubunter/Documents/love projects/first/love.conf",
+		"/C/Users/Xubunter/AppData/Roaming/Sublime Text 3/Packages/User/love.sublime-build"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inputEmail",
+			"exampleCheck1",
+			"exampleInputPassword1",
+			"exampleInputEmail1",
+			" ');"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3694,
+								3330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2970.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2048,
+								2048
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/login.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1063,
+								977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/register.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1779,
+								1779
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 201.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1350,
+								1350
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 158.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/love.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

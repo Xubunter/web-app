@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Вход</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin" method="POST">
+        <h2 class="form-signin-heading">Вход</h2>
+        <%if(typeof err != 'undefined'){%>
+        <p>Ошибка входа!</p>
+        <%};%>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input type="email" id="inputEmail" name ="email" class="form-control" placeholder="Email" required autofocus>
+        <label for="inputPassword" class="sr-only">Пароль</label>
+        <input type="password" id="inputPassword" name="pass" class="form-control" placeholder="Пароль" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="location.href='/'">Войти</button>
+
+        <a href="/register">Еще не зарегистрированы?</a>
+      </form>
+
+    </div> <!-- /container -->
+  </body>
+</html>

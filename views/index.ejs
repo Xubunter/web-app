@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Главная</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css\main.css">
+	<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .btn-outline-primary {
+      	margin-left: 0.5rem;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</head>
+<body>
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+		<h5 class="my-0 mr-md-auto font-weight-normal"><%= username%></h5>
+		<% if (username == 'Anonymous'){%>
+		<a class="btn btn-outline-primary" href="/login">Вход</a>
+		<a class="btn btn-outline-primary" href="/register">Регистрация</a>
+		<%}else{%>
+		<a class="btn btn-outline-primary" href="/signout">Выход</a>
+		<%};%>
+	</div>
+	<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Wubba lubba dub dub</h1>
+      <p class="lead text-muted">Я изобрел это сайт, Морти, для отслеживания наших вариаций из других вселенных. Но так просто это не работает, Морти. Для получение обратной связи мне нужны другие люди. Поэтому, Морти, я сделал регистрацию. Каждый новый пользователь позоляет связаться со случайным Риком или Морти из других миров. Это очень важно, Морти, и для привлечения внимания я выкладываю список связанных пользователей с их Риками или Морти на главной, здесь, чуть ниже. Я уверен, тебе это понравится, Морти!<br><br>
+      	P.S. Видишь вот те кнопки с профилями, Морти? Они пока не работают. Хоть я великий ученый, Морти, но я запутался во всех этих пакетах и фреймворках.<br><br> P.P.S. А еще , Морти, добавление нового пользователя после регистрации происходит не сразу, надо обновить страницу. И вообще, Морти, тут все что угодно может пойти не так. Да мой квантовый реактор у тебя в шкафу стабильнее, Морти! 
+      </p>
+
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container" >
+
+      <div class="row">
+
+        <%users.forEach(function(item){%>
+		<div class="card" style="width: 15.8rem; margin: 1rem">
+			<img class="card-img-top" src="img/<%=item.img%>" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title"><%=item.login%></h5>
+				<p class="card-text">ID = <%= item.rik_or_morti_id%></p>
+				<a href="#" class="btn btn-primary">Профиль</a>
+			</div>
+		</div>
+        <%}); %>
+
+      </div>
+
+        
+
+</main>
+
+	<script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "passport": "^0.4.0",
+    "pg": "^7.11.0"
+  }
+}
